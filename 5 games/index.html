@@ -1,0 +1,48 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>five game</title>
+</head>
+
+<body>
+    <div>
+        <p id="demo">select 1 or 2</p>
+        <p id="whatWin"></p>
+        <p id="counter"></p>
+        <button onclick="rand(1)">1</button>
+        <button onclick="rand(1)">2</button>
+    </div>
+    <hr>
+    <div>
+        <p>Ask your question?</p>
+        <input type="text" id="question" placeholder="question">
+        <button onclick="ask()">Ask</button>
+        <p id="showAnswer"></p>
+    </div>
+    <hr>
+    <div>
+        <p id="Gestures">Gestures 0</p>
+        <input type="number" min="0" max="9" name="" id="num3">
+        <input type="number" min="0" max="9" name="" id="num2">
+        <input type="number" min="0" max="9" name="" id="num1">
+        <input type="number" min="0" max="9" name="" id="num0">
+        <br>
+        <button onclick="check()">check</button>
+    </div>
+    <hr>
+    <div>
+        <p id="message"></p>
+        <input type="text" id="word">
+        <button onclick="play()">check</button>
+    </div>
+    <hr>
+    <div>
+        <input type="date" name="" id="date" onchange="change()">
+        <p id="remainDate"></p>
+    </div>
+</body>
+<script src="./js.js"></script>
+
+</html>

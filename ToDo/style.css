@@ -1,0 +1,27 @@
+body{
+    background-color: aqua;
+}
+
+.container{
+    text-align: center;
+    margin: 20px;
+}
+
+.header{   
+}
+
+.subHeader{
+    color: yellow;
+}
+
+.subHeader2{
+    color: green;
+}
+
+.subHeader3{
+    color: blue;
+}
+
+#lbl{
+    text-align: center;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="js.js"></script>
+
+</head>
+
+<body class=" container">
+
+   
+    <div class="row">
+        <div class="form-group m-5 text-right col-4">
+            <label for="frames" >تعداد قاب های حافظه</label>
+            <input type="number" class="form-control" id="frames" aria-describedby="emailHelp"
+                placeholder="for example : 3">
+        </div>
+        <div class="form-group m-5 text-right col-4">
+            <label for="address">دنباله ادرس</label>
+            <input type="text" class="form-control" id="address" placeholder="for example :1 2 3 4 5 6">
+        </div>
+    </div>
+
+
+    <div class=" row">
+        <div class="col-4 border border-info btn">
+            <button class="btn px-5 btn-success" onclick="submit1()" id="b">OPTIMAL</button>
+            <p id="p1" style="flex-grow:1 ;"></p>
+        </div>
+        <div class="col-4 border border-info btn ">
+            <button class="btn px-5 btn-success " onclick="submit2()" id="b">FIFO</button>
+            <p id="p2" style="flex-grow:1 ;"></p>
+        </div>
+        <div class="col-4 border border-info btn ">
+            <button class="btn px-5 btn-success " onclick="submit3()" id="b">LRU</button>
+            <p id="p3" style="flex-grow:1 ;"></p>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
